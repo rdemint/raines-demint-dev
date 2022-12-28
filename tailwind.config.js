@@ -19,7 +19,17 @@ module.exports = {
             'night-600': '#3F6473',
             'night-700': '#2D4852',
             'night-800': '#22373F',
-            'night-900': '#101A1E'
+            'night-900': '#101A1E',
+            'alien-50': '#F5FDE7',
+            'alien-100': '#EBFBD0',
+            'alien-200': '#DCF8AA',
+            'alien-300': '#D2F692',
+            'alien-400': '#BEF263',
+            'alien-500': '#A1EF34',
+            'alien-600': '#93DE12',
+            'alien-700': '#70B805',
+            'alien-800': '#455A30',
+            'alien-900': '#2B381E'
           }
       },
   },

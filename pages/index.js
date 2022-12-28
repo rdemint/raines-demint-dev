@@ -25,7 +25,7 @@ export default function Home() {
       <main className="flex flex-col items-center">
               <Hero />
               <div className="w-full flex justify-center">
-                  <div className="py-24 max-w-md flex flex-col space-y-4 text-[#D4DAC8] text-justify">
+                <div className="py-24 max-w-md flex flex-col space-y-4 text-[#BDD0C4] text-justify">
                     <p>I&apos;m Raines, thanks for checking out some of my software projects.</p>
                     <p> By day I&apos;m a medical device consultant, but since 2017 I&apos;ve been fascinated by the world of code and continually building my skills.</p>
                     <p>I built this site to showcase my work.</p>
