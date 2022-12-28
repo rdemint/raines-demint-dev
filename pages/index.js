@@ -25,14 +25,14 @@ export default function Home() {
       <main className="flex flex-col items-center">
               <Hero />
               <div className="w-full flex justify-center">
-                  <div className="py-24 max-w-md flex flex-col space-y-4">
-                    <p>I&apos;m Raines, thanks for visiting and checking out some of my software projects.</p>
-                    <p> By day I&apos;m a medical device consultant, but since 2017 I&apos;ve been fascinated by the world of code and building my skills.</p>
+                  <div className="py-24 max-w-md flex flex-col space-y-4 text-[#D4DAC8] text-justify">
+                    <p>I&apos;m Raines, thanks for checking out some of my software projects.</p>
+                    <p> By day I&apos;m a medical device consultant, but since 2017 I&apos;ve been fascinated by the world of code and continually building my skills.</p>
                     <p>I built this site to showcase my work.</p>
                   </div>
               </div>
               <Container>
-                  <h3 className="text-2xl text-center">Project showcase</h3>
+                  <h3 className="text-2xl text-center text-lime-100">Project showcase</h3>
                   {criteria.map((c) => (
                       <div key={c.name} className="flex items-center space-x-6 h-24 m-4 bg-slate-50 rounded-xl px-4">
                           <CheckBadgeIcon className="text-slate-800 h-8 w-8 flex-none bg-yellow-400 rounded-xl"/>

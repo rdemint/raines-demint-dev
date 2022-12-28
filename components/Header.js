@@ -16,8 +16,7 @@ return(
     <div className="flex bg-night-900 shadow-lg items-center justify-between p-6">
         <Link href="/#">
             <a className="text-night-100">
-                <span >raines </span>
-                <span >demint</span>
+                <span>raines demint</span>
             </a>
         </Link>
         <section id="desktop-menu" className='hidden md:block'>
