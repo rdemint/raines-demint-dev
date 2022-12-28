@@ -3,7 +3,7 @@ import Footer from '@/components/Footer'
 
 export default function AppShell({ children }) {
 	return (
-		<div className="min-h-screen flex flex-col justify-between">
+		<div className="min-h-screen flex flex-col justify-between bg-night-900 text-slate-300">
 			<Header />
 			<main>{children}</main>
 			<Footer />

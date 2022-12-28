@@ -13,11 +13,11 @@ export default function Header() {
     const navList = []
 
 return(
-    <div className="flex bg-neutral-900 shadow-lg items-center justify-between p-6">
+    <div className="flex bg-night-900 shadow-lg items-center justify-between p-6">
         <Link href="/#">
-            <a className="text-gray-800">
-                <span className="text-slate-100">Raines </span>
-                <span className="text-slate-300">Demint</span>
+            <a className="text-night-100">
+                <span >raines </span>
+                <span >demint</span>
             </a>
         </Link>
         <section id="desktop-menu" className='hidden md:block'>
