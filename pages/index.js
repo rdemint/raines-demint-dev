@@ -82,7 +82,7 @@ export default function Home() {
       <main className="flex flex-col items-center">
               <Hero />
               <div className="w-full flex justify-center">
-                <div className="py-24 px-12 max-w-md flex flex-col space-y-4 text-[#BCCDC1] text-justify">
+                <div className="py-24 px-12 flex flex-col space-y-4 text-[#BCCDC1] text-justify">
                     <p>I&apos;m Raines, thanks for checking out some of my software projects.</p>
                     <p> By day I&apos;m a medical device consultant, but since 2017 I&apos;ve been fascinated by the world of code and continually building my skills.</p>
                     <p>I built this site to showcase my work.</p>
@@ -94,7 +94,7 @@ export default function Home() {
                       <div key={project.name} className="flex-col space-y-4 md:flex md:space-x-4 m-4 p-4 bg-night-800 rounded-lg justify-between">
                           <div className='flex-col space-y-4'>
                             <h4 className="text-alien-200 text-2xl">{project.name}</h4>
-                            { project?.url ? <a href={project.url}>{project.simpleUrl}</a> : <></>}
+                            { project?.url ? <a className="text-night-300" href={project.url}>{project.simpleUrl}</a> : <></>}
                             <p className="text-night-200 tracking-tight">{project.details}</p>
                             
                             <div className='flex flex-row flex-wrap space-x-2'>
@@ -124,6 +124,18 @@ export default function Home() {
                     ))
                   }
               </Container>
+              <div className='px-8 h-96 flex items-center justify-center bg-night-700 w-full'>
+                <div className='text-justify max-w-3xl'>
+                  <h2 className='text-4xl text-alien-200 py-4'>About me</h2>
+                  <p>I have been coding since 2017 with a focus on web development.  These days I am most active in Javascript using NextJs and Tailwind.</p>
+                  <br/>
+                  <p>Connect with me at any of the following.</p>
+                  <br/>
+                  <p><a className="text-cyan-600" href="https://www.github.com/rdemint">github.com/rdemint</a></p>
+                  <p><a className="text-cyan-600" href="https://linkedin.com/in/raines-demint">linkedin.com/in/raines-demint</a></p>
+                  <p><a className="text-cyan-600" href="https://instagram.com/rainesmint">IG @rainesmint</a></p>
+                </div>
+              </div>
           </main>
       </div>
 
