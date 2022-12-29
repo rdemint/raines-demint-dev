@@ -21,8 +21,8 @@ return(
         </Link>
         <section id="desktop-menu" className='hidden md:block'>
             <section className="flex space-x-5">
-                <Link href="/about">
-                    <a className="px-3 text-gray-900 hover:underline underline-offset-8">About</a>
+                <Link href="#aboutme">
+                    <a className="px-3 hover:underline underline-offset-8">About</a>
                 </Link>
             </section>
         </section>
@@ -53,7 +53,7 @@ return(
                                 leaveFrom="translate-x-0"
                                 leaveTo="-translate-x-full"
                             >
-                                <Dialog.Panel className="relative flex w-full max-w-[85%] flex-1 flex-col overflow-y-auto overflow-y-auto bg-white pt-5 pb-4">
+                                <Dialog.Panel className="relative flex w-full max-w-[85%] flex-1 flex-col overflow-y-auto overflow-y-auto bg-night-900 pt-5 pb-4">
                                     <Transition.Child
                                         as={Fragment}
                                         enter="ease-in-out duration-300"
@@ -74,20 +74,9 @@ return(
                                             </button>
                                         </div>
                                     </Transition.Child>
-                                    <div className="pl-6">
-                                        {navList.map((item)=> (
-                                            <a key={item.name}
-                                            href={item.href}
-                                            className="block rounded-md p-3 hover:bg-gray-200">
-                                                <p className='text-base text-gray-900'>{item.name}</p>
-                                                <p className='mt-1 text-sm text-gray-500'>{item.description}</p>
-                                            </a>
-                                        ))}
-                                        <Link href="/blog">
-                                            <a  onClick={()=> setSidebarOpen(false)} className="block p-3 text-gray-900 text-base">Blog</a>
-                                        </Link>
-                                        <Link href="/about">
-                                            <a onClick={()=> setSidebarOpen(false)} className="block p-3 text-gray-900">About</a>
+                                    <div className="pl-6 text-night-300">
+                                        <Link href="#aboutme">
+                                            <a onClick={()=> setSidebarOpen(false)} className="block p-3">About</a>
                                         </Link>
                                     </div>
                                 </Dialog.Panel>

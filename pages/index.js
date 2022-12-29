@@ -124,18 +124,20 @@ export default function Home() {
                     ))
                   }
               </Container>
-              <div className='px-8 h-96 flex items-center justify-center bg-night-700 w-full'>
-                <div className='text-justify max-w-3xl'>
-                  <h2 className='text-4xl text-alien-200 py-4'>About me</h2>
-                  <p>I have been coding since 2017 with a focus on web development.  These days I am most active in Javascript using NextJs and Tailwind.</p>
-                  <br/>
-                  <p>Connect with me at any of the following.</p>
-                  <br/>
-                  <p><a className="text-cyan-600" href="https://www.github.com/rdemint">github.com/rdemint</a></p>
-                  <p><a className="text-cyan-600" href="https://linkedin.com/in/raines-demint">linkedin.com/in/raines-demint</a></p>
-                  <p><a className="text-cyan-600" href="https://instagram.com/rainesmint">IG @rainesmint</a></p>
-                </div>
-              </div>
+              <section className='px-8 h-96 flex items-center justify-center bg-night-700 w-full'>
+                <a name="aboutme">
+                  <div id="aboutme" className='text-justify max-w-3xl'>
+                    <h2 className='text-4xl text-alien-200 py-4'>About me</h2>
+                    <p>I have been coding since 2017 with a focus on web development.  These days I am most active in Javascript using NextJs and Tailwind.</p>
+                    <br/>
+                    <p>Connect with me at any of the following.</p>
+                    <br/>
+                    <p><a className="text-cyan-600" href="https://www.github.com/rdemint">github.com/rdemint</a></p>
+                    <p><a className="text-cyan-600" href="https://linkedin.com/in/raines-demint">linkedin.com/in/raines-demint</a></p>
+                    <p><a className="text-cyan-600" href="https://instagram.com/rainesmint">IG @rainesmint</a></p>
+                  </div>
+                </a>
+              </section>
           </main>
       </div>
 
