@@ -83,7 +83,7 @@ export default function Home() {
       <Head>
         <title>Raines Demint</title>
         <meta name="description" content="Developer portfolio site" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/raines_fav.png" />
       </Head>
 
       <main className="flex flex-col items-center">
