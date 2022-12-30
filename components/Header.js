@@ -20,11 +20,12 @@ return(
             </a>
         </Link>
         <section id="desktop-menu" className='hidden md:block'>
-            <section className="flex space-x-5">
                 <Link href="#aboutme">
                     <a className="px-3 hover:underline underline-offset-8">About</a>
                 </Link>
-            </section>
+                <Link href="#projects">
+                    <a className='px-3 hover:underline underline-offset-8'>Projects</a>
+                </Link>
         </section>
         <section id="mobile-sidebar" className="md:hidden">
                 <button onClick={()=> setSidebarOpen(true)}>
@@ -77,6 +78,9 @@ return(
                                     <div className="pl-6 text-night-300">
                                         <Link href="#aboutme">
                                             <a onClick={()=> setSidebarOpen(false)} className="block p-3">About</a>
+                                        </Link>
+                                        <Link href="#projects">
+                                            <a onClick={()=> setSidebarOpen(false)} className="block p-3">Projects</a>
                                         </Link>
                                     </div>
                                 </Dialog.Panel>
